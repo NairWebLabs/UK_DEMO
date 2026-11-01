@@ -1,3 +1,5 @@
+import { triggerHapticTap, triggerHapticSuccess, triggerHapticScan } from './nativeMobile';
+
 // Subtle synthesized sound effects using standard Web Audio API (no external sound assets needed)
 
 let audioCtx: AudioContext | null = null;
@@ -17,6 +19,7 @@ function getAudioContext(): AudioContext | null {
 }
 
 export function playSuccessChime() {
+  triggerHapticSuccess();
   try {
     const ctx = getAudioContext();
     if (!ctx) return;
@@ -54,6 +57,7 @@ export function playSuccessChime() {
 }
 
 export function playScanBeep() {
+  triggerHapticScan();
   try {
     const ctx = getAudioContext();
     if (!ctx) return;
@@ -81,6 +85,7 @@ export function playScanBeep() {
 }
 
 export function playTapClick() {
+  triggerHapticTap();
   try {
     const ctx = getAudioContext();
     if (!ctx) return;
