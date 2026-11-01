@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "name": "Kallos Club Member App",
+  "short_name": "Kallos",
+  "description": "UK Leisure membership and community app for iOS & Android with dynamic QR passes and bookings.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' width='512' height='512'%3E%3Crect width='512' height='512' rx='128' fill='%23121214'/%3E%3Ccircle cx='256' cy='256' r='180' fill='none' stroke='%23f59e0b' stroke-width='16' stroke-dasharray='8 16'/%3E%3Cpath d='M200 160 L200 352 M200 256 L310 160 M220 238 L316 352' stroke='%23f59e0b' stroke-width='40' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' width='512' height='512'%3E%3Crect width='512' height='512' rx='128' fill='%23121214'/%3E%3Ccircle cx='256' cy='256' r='180' fill='none' stroke='%23f59e0b' stroke-width='16' stroke-dasharray='8 16'/%3E%3Cpath d='M200 160 L200 352 M200 256 L310 160 M220 238 L316 352' stroke='%23f59e0b' stroke-width='40' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

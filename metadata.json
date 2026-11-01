@@ -1,0 +1,6 @@
+{
+  "name": "Kallos Club - UK Leisure Membership & Community App",
+  "description": "Multi-venue UK leisure membership and community platform featuring tiered Stripe subscriptions, digital dynamic QR pass, loyalty perks, events calendar, booking integration, and staff admin portal across 4 venues.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
